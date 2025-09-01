@@ -4,3 +4,4 @@
 - gennki
 - kawaii
 - chiisai
+- shirokuro
