@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#memo-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px 24px 24px 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.green-title {
+    text-align: center;
+    color: #22a722;
+    margin-bottom: 24px;
+    font-size: 2.2em;
+    letter-spacing: 0.1em;
+}
+
+#titleInput, #memoInput {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #f9f9f9;
+}
+
+#memoInput {
+    min-height: 80px;
+    resize: vertical;
+}
+
+#addMemo {
+    width: 100%;
+    background-color: #22a722;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-bottom: 18px;
+    transition: background 0.2s;
+}
+
+#addMemo:hover {
+    background-color: #178d17;
+}
+
+#memoList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.memo-item {
+    background: #e9fbe9;
+    padding: 14px 16px 14px 16px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(34, 167, 34, 0.07);
+}
+
+.memo-title {
+    font-weight: bold;
+    color: #178d17;
+    margin-bottom: 6px;
+    font-size: 1.1em;
+}
+
+.memo-content {
+    color: #333;
+    white-space: pre-wrap;
+}
+
+.delete-button {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 10px;
+    font-size: 0.95em;
+    transition: background 0.2s;
+}
+
+.delete-button:hover {
+    background: #c82333;
+}
